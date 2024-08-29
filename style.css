@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    display:flex;
+    background-color: gainsboro;
+}
+
+#logoh img {
+    margin-left: 70px;
+    padding: 15px;
+    width: 95px;
+}
+
+.bbg{
+    margin-top: 200px;
+    width: 550px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+header {
+    background-image: url("bg.jpg");
+    width: 500px;
+    height: 690px;
+    background-repeat: no-repeat;
+}
+
+.sec1 {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2 {
+    margin: 50px 0px 20px 40px ;
+}
+
+.sec2 p {
+    margin-top: 10px;
+}
+
+.form1 {
+    margin-top:10px;
+}
+form {
+    display: flex;
+    margin: 0 0 20px 40px ;
+}
+
+.form1 p {
+    font-size: 15px;
+}
+
+.form1 {
+    flex-direction: row;
+}
+
+.left, .right {
+    flex: 0;
+    padding: 10px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+label {
+    font-size: 13px;
+}
+
+input {
+    border: 1px solid mediumpurple;
+    border-radius: 3px;
+    padding: 4px;
+    width: 200px;
+}
+
+input:active {
+    border: 1px solid mediumpurple;
+}
+
+.form1 {
+    padding-top: 40px;
+    background-color: #fff;
+    height: 250px;
+    width: 980px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ldt {
+    margin: 0 0 0 49px;
+}
+
+.sec3 {
+    margin: 20px 0 20px 40px ;
+}
+
+.sec3 a {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: mediumpurple;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+
+}
